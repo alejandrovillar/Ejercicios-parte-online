@@ -1,0 +1,13 @@
+<h1>Hellooooooooooooooooooo</h1>
+<h1>Listing laptops</h1> 
+	<% @laptops.each do |laptop|%>
+	<div><%= laptop.title %></div>
+		<%= link_to 'Show',  laptop_path(laptop)%>
+        <%= link_to 'Edit', edit_laptop_path(laptop) %>
+        <%= link_to 'Destroy', laptop_path(laptop), method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+<% end %>
+
+<p>
+    <%= link_to 'New laptop', new_laptop_path %>
+</p>

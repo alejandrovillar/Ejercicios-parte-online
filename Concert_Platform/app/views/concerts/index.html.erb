@@ -1,0 +1,13 @@
+<div id='loDeDentro'>
+<h1>Concert Platform</h1>
+<% @concerts.each do |concert| %>
+	<div id='especial'><strong><%= concert.band_name.rjust(5) %></strong>
+	</div>
+	<div id='enlaces'>
+		<%= link_to 'Show',  concert_path(concert)%>
+		&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp
+        <%= link_to 'Destroy', concert_path(concert), method: :delete, data: { confirm: '¿Estás seguro, machote?' } %>
+    </div>
+<% end %>
+    <span id='newC'><%= link_to 'New concert', new_concert_path %></span>
+</div>

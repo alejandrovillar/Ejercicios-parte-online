@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  brand: MyText
+  model: MyText
+  processor_brand: MyText
+  ram_size: MyText
+  price: MyText
+
+two:
+  title: MyString
+  brand: MyText
+  model: MyText
+  processor_brand: MyText
+  ram_size: MyText
+  price: MyText

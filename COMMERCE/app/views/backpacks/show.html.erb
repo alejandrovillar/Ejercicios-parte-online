@@ -1,0 +1,25 @@
+<h3>
+  <strong>Name:</strong>
+  <%= @backpack.title %>
+</h3>
+<p>
+  <strong>Color:</strong>
+  <%= @backpack.color %>
+</p>
+
+<p>
+  <strong>Capacity in liters:</strong>
+  <%= @backpack.capacity %>
+</p>
+
+<p>
+  <strong>Number of pockets:</strong>
+  <%= @backpack.pokets %>
+</p>
+
+<p>
+  <strong>Is it waterproof?:</strong>
+  <%= @backpack.waterproof %>
+</p>
+
+<%= link_to 'Back', backpacks_path %>

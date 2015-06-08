@@ -1,0 +1,2 @@
+Computer.create( title: "Toshiba 2.1.1", brand: "Toshiba", model: "2.1.1", processor_brand: "ni idea", ram_size_GB: "mucha", price: "800 €")
+Computer.create( title: "Asus Golden Fish", brand: "Asus", model: "Golden Fish", processor_brand: "ni idea", ram_size_GB: "menos", price: "750 €")

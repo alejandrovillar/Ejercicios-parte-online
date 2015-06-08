@@ -1,0 +1,104 @@
+#especial {
+	background: -webkit-linear-gradient(left, #8CBFDD, #FFF);
+	padding: 0px;
+	color: #190C24;
+	font-size: 130%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	border-radius: 10px;
+	border: solid black;
+	box-shadow: 12px 12px 13px #974935;
+}
+
+
+#enlaces {
+	background: -webkit-linear-gradient(#8CBFAD, #FFA);
+	padding: 0px;
+	color: #190C24;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	height: 180%;
+	border-radius: 101px;
+	border: solid black;
+	box-shadow: 12px 12px 13px #974935;
+}
+
+
+#descrip {
+	background: -webkit-linear-gradient(#F0F2C2, #D5DA47);
+	padding: 3px;
+	width: 80%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border: solid black;
+	padding: 24px;
+	box-shadow: 12px 12px 13px #974935;
+}
+
+#loDeDentro {
+	background: -webkit-linear-gradient(top right, #266F4F, #EF8065);
+	border: 3px solid black;
+	padding-bottom: 24px;
+}
+
+h1 {
+	padding: 12px;
+	font-size: 300%;
+	font-family: "Georgia";
+	text-decoration: underline;
+}
+
+body {
+	clear: both;
+	text-align: center;
+	background-image: url(Elegant_Background-12.jpeg);
+	margin: 100px;
+	box-shadow: 10px 7px 7px #0F0404;
+	}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #974935;
+	font-size: 110%;
+}
+
+a:visited {
+	color: none;
+}
+
+#like-button, #back, #newC {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 3px outset #cccccc;
+}
+
+#like-button {
+  background-color: #696E1A;
+  color: #FFF;
+}
+
+#back {
+	background-color: #7A432C;
+	color: #000;
+}
+
+#newC {
+	background-color: #A99187;
+}
+
+.liked {
+  background-color: #42B1E5 !important;
+}

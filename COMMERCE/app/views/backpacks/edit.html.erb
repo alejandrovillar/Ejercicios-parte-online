@@ -1,0 +1,65 @@
+<h1>Editing backpack</h1>
+
+<%= form_for :backpack, url: backpack_path(@backpack), method: :patch do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :color %><br>
+    <%= f.text_area :color %>
+  </p>
+  
+  <p>
+    <%= f.label :capacity %><br>
+    <%= f.text_area :capacity %>
+  </p>
+  
+  <p>
+    <%= f.label :pokets %><br>
+    <%= f.text_area :pokets %>
+  </p>
+
+  <p>
+    <%= f.label :waterproof %><br>
+    <%= f.text_area :waterproof %>
+  </p>
+
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', backpacks_path%>
+
+<p>
+  <strong>Name:</strong>
+  <%= @backpack.title %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @backpack.color %>
+</p>
+
+<p>
+  <strong>Capacity in liters:</strong>
+  <%= @backpack.capacity %>
+</p>
+
+<p>
+  <strong>Number of pockets:</strong>
+  <%= @backpack.pokets %>
+</p>
+
+<p>
+  <strong>Is it waterproof?:</strong>
+  <%= @backpack.waterproof %>
+</p>
+
+<p>
+    <%= link_to 'Edit', edit_backpack_path(@backpack)%>
+    <%= link_to 'Back', backpacks_path%>
+</p>

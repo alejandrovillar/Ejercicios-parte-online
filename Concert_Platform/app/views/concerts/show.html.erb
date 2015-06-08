@@ -1,0 +1,24 @@
+<div id='loDeDentro'>
+<p id='notice'><%= notice %></p>
+<h1><%= @concert.band_name %></h1>
+<p id='especial'>
+	<strong>Lugar:</strong>
+	<%= @concert.venue %>
+	<strong>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspCiudad:</strong>
+	<%= @concert.city %>
+	<strong>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspFecha:</strong>
+	<%= @concert.date %>
+	<strong>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspPrecio:</strong>
+	<%= @concert.price %> euros
+</p>
+<p id='descrip'>
+	<strong>Descripción:</strong><br/>
+	<%= @concert.description %>
+</p>
+
+<!--<button type='button' id='like-button'>Me gusta</button>-->
+<input type='button' onClick='cuentaLikes()' Value='Me gusta' id='like-button'/>
+<span id = 'result'> 0</span> likes
+
+<%= link_to 'Back', concerts_path, :id => 'back' %>
+</div>
